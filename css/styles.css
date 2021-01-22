@@ -44,7 +44,7 @@ img {
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
-  clear: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
@@ -910,7 +910,7 @@ li {
 .modal_form-policy:checked + .modal_form-policy-text::before {
   background-color: #2196f3;
   border: 4px solid #ffffff;
-  background-image: url(../images/sprite.svg#icon-vector);
+  image: url(../images/sprite.svg#icon-vector);
 }
 
 .modal_form-policy-text {
