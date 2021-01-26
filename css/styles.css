@@ -755,7 +755,7 @@ li {
 
 .btn-subscribe {
   font-family: Roboto, sans-serif;
-  padding-top: 12px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
   color: #ffffff;
@@ -773,8 +773,8 @@ li {
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
-  left: 1185px;
-  top: 2785px;
+  left: 1135px;
+  top: 2775px;
 }
 
 .btn-subscribe::after {
@@ -784,7 +784,6 @@ li {
   margin-left: 10px;
   margin-right: 28px;
   background-image: url("../images/iconsend.svg");
-  color: #ffffff;
 }
 
 /*=======end CONTAKT=======*/
